@@ -1,4 +1,4 @@
-async function find ({ url, opts, schema, filter } = {}) {
+async function recordFind ({ url, opts, schema, filter } = {}) {
   const sorts = []
   for (const s in filter.sort) {
     sorts.push(`${s} ${filter.sort[s] === -1 ? 'DESC' : 'ASC'}`)
@@ -8,4 +8,4 @@ async function find ({ url, opts, schema, filter } = {}) {
   return { url, opts }
 }
 
-export default find
+export default recordFind

@@ -1,3 +1,4 @@
 {
+  "alias": "rpxndut",
   "dependencies": ["bajo-db-restproxy"]
 }

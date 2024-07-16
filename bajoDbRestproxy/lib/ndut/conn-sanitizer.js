@@ -4,7 +4,7 @@ const keys = {
 }
 
 async function connSanitizer (conn) {
-  const { importModule } = this.bajo.helper
+  const { importModule } = this.app.bajo
   const generic = await importModule('bajoDbRestproxy:/bajoDb/generic/conn-sanitizer.js')
   const result = await generic.call(this, conn, keys)
   return result
