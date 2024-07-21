@@ -6,7 +6,7 @@ Plugin name: **bajoDbRestproxyJsonserver**, alias: **rpxjs**
 
 > <br />**Attention**: I do NOT accept any pull request at the moment, thanks!<br /><br />
 
-Rest API Proxy driver (NDUT Framework support) for [Bajo Framework](https://github.com/ardhi/bajo). Requires [Bajo DB](https://github.com/ardhi/bajo-db) and [Bajo DB Restproxy](https://github.com/ardhi/bajo-db-restproxy)
+Rest API Proxy driver's [NDUT](https://github.com/ardhi/ndut) support for [Bajo](https://github.com/ardhi/bajo). Requires [Bajo DB](https://github.com/ardhi/bajo-db) and [Bajo DB Restproxy](https://github.com/ardhi/bajo-db-restproxy)
 
 ## Installation
 
